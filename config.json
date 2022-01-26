@@ -1,0 +1,62 @@
+{
+    "start_path": "./lxc_colony",
+    "opening": [
+        "Surprise!!",
+        "Several passwords are required",
+        "before you get the",
+        "final TREASURE!!",
+        "Let us begin"
+    ],
+    "levels": [
+        {
+            "question": "When is my birthday(4-numbers)",
+            "options": "0123456789",
+            "depth": 4,
+            "answer": "0716",
+            "traps": [
+                {
+                    "error_ans": "1108",
+                    "msg": "Shame on you!!!"
+                },
+                {
+                    "error_ans": "0920",
+                    "msg": "Shame on you!!!"
+                }
+            ]
+        },
+        {
+            "question": "Am i a nice guy",
+            "options": ["sure", "maybe", "no"],
+            "depth": 1,
+            "answer": ["sure"],
+            "traps": [
+                {
+                    "error_ans": ["no"],
+                    "msg": "HOLY SHIT!!!"
+                }
+            ]
+        },
+        {
+            "question": "Will u punch me to death",
+            "options": ["yea", "maybe", "i swear no"],
+            "depth": 1,
+            "answer": ["i swear no"],
+            "traps": [
+                {
+                    "error_ans": ["yea"],
+                    "msg": ["OMG--", "Game over"]
+                }
+            ]
+        }
+    ],
+    "conclusion": [
+        "You are welcome--",
+        "Thanks for your",
+        "HONEST answers ~ ~",
+        "the treasure is just around the corner--",
+        "be patient--",
+        "It is a very precious weapon--",
+        "which u can use to FOOL other--",
+        "Come in---"
+    ]
+}
